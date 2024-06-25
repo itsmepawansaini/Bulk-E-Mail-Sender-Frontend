@@ -1,0 +1,111 @@
+html[data-placement='horizontal'] .nav-container .logo img,
+html[data-placement='horizontal'] .nav-container .logo .img,
+html[data-placement='vertical'] .nav-container .logo img,
+html[data-placement='vertical'] .nav-container .logo .img {
+  width: 150px !important;
+}
+
+.btn-outline-primary {
+  box-shadow: inset 0 0 0 1px #ff9f31 !important;
+  color: #ff9f31 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ff9f31;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  background-color: #ff9f31 !important;
+  box-shadow: inset 0 0 0 1px #ff9f31 !important;
+}
+
+.show > .btn-outline-primary:not(:disabled):not(.disabled).dropdown-toggle[aria-expanded='true'] {
+  background-color: #ff9f31 !important;
+  box-shadow: inset 0 0 0 1px #ff9f31 !important;
+}
+
+.dropdown-menu a:hover {
+  color: #ff9f31 !important;
+}
+
+.btn-primary {
+  background-color: #ff9f31 !important;
+}
+
+.filled .form-control:focus {
+  border-color: #ff9f31 !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #ff9f31 !important;
+}
+
+.page-link {
+  color: #ff9f31 !important;
+}
+
+.page-link:hover {
+  background-color: #ff9f31 !important;
+  color: white !important;
+}
+
+.btn-foreground-alternate:hover {
+  color: #ff9f31 !important;
+}
+
+.side-menu.primary a.active {
+  color: #ff9f31 !important;
+}
+
+.side-menu.primary a.active .label {
+  color: #ff9f31 !important;
+}
+
+.side-menu.primary a.active .icon {
+  color: #ff9f31 !important;
+}
+
+.side-menu.primary a:hover {
+  color: #ff9f31 !important;
+}
+
+.side-menu.primary a.active {
+  color: #ff9f31 !important;
+}
+
+.text-primary {
+  color: #ff9f31 !important;
+}
+
+.search-input-container .search-magnifier-icon:hover,
+.search-input-container .search-delete-icon:hover {
+  color: #ff9f31 !important;
+}
+
+a:hover {
+  color: #ff9f31 !important;
+}
+
+.btn-link {
+  color: #ff9f31 !important;
+}
+
+.btn-link:hover {
+  color: #ff9f31 !important;
+}
+
+.btn-icon-action {
+  padding: 9px 10px !important;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+@media (min-width: 768px) {
+  .sh-md-7 {
+    height: 4rem !important;
+  }
+}
+
+.btn-secondary {
+  background-color: #ff9f31 !important;
+}
