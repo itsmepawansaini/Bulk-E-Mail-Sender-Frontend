@@ -255,7 +255,7 @@ const Recipient = () => {
             </div>
           </Col>
           <Col md="7" lg="9" xxl="10" className="mb-1 text-end">
-            <ExportDropdown searchQuery={searchQuery} />
+            {/* <ExportDropdown searchQuery={searchQuery} /> */}
 
             <Dropdown align={{ xs: 'end' }} className="d-inline-block ms-1">
               <OverlayTrigger delay={{ show: 1000, hide: 0 }} placement="top" overlay={<Tooltip id="tooltip-top">Item Count</Tooltip>}>
